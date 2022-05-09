@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/fluxprotocol/fpo-node/compare/v1.2.1...v1.3.0) (2022-05-09)
+
+
+### Features
+
+* **pairDeviationChecker:** Add support for checking price updates with deviation pushing enabled ([e7fc9fc](https://github.com/fluxprotocol/fpo-node/commit/e7fc9fcdba280e090f44ae7d06538c8e83b89afd))
+* **pushpair:** Add support for deviation percentages before pushing ([96d8482](https://github.com/fluxprotocol/fpo-node/commit/96d84821378c8336e83d4f932b13fd3c561b0a06))
+
+
+### Bug Fixes
+
+* **big:** Fix issue where Big.js would use scientific notation instead of writing out the full number ([992ea30](https://github.com/fluxprotocol/fpo-node/commit/992ea30a6c489ada8ccd488ab434684aa5fa1cc9))
+* **pairchecker:** Fix issue where stale or undefined prices where being used for checking against ([ec5bced](https://github.com/fluxprotocol/fpo-node/commit/ec5bced45791379714f553cdd579fe880b086c2b))
+* **pairDeviationChecker:** Send telegram msg with markdown ([2f8f5bf](https://github.com/fluxprotocol/fpo-node/commit/2f8f5bf491d5d3470192fc7697ca7a007f7431be))
+* **pushpair:** Fetch Last Update now returns oldest pair update ([4141220](https://github.com/fluxprotocol/fpo-node/commit/41412208db49972fd9bd525d85f0e714bf251e5d))
+* **pushPair:** Fix issue where on NEAR a division by zero would occur on new pairs ([1141071](https://github.com/fluxprotocol/fpo-node/commit/1141071fb2213022d1c2c9d1edb0e8c1ed441a8e))
+* **pushpair:** Fix issue where some non-volatile pairs would never get updated due wrong checked timestamps ([ef085a8](https://github.com/fluxprotocol/fpo-node/commit/ef085a8b28e2180a76b5c1ba7307ebf6ace996c2))
+
 ### [1.2.1](https://github.com/fluxprotocol/fpo-node/compare/v1.2.0...v1.2.1) (2022-05-05)
 
 
